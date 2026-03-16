@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maria Giovanna & Vincenzo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- COVER -->
+  <section class="page active" id="cover">
+    <div class="page-inner cover-inner">
+      <img src="Cover.png" class="cover-image" alt="Copertina Napoli" />
+      <button class="seal-hit" type="button" onclick="goNext()" aria-label="Apri invito"></button>
+    </div>
+  </section>
+
+  <!-- PAGINA 1 -->
+  <section class="page" id="page1">
+    <div class="page-inner nav-tap">
+      <img src="p1.png" class="page-bg" alt="Nomi e data">
+    </div>
+  </section>
+
+  <!-- PAGINA 2 -->
+  <section class="page" id="page2">
+    <div class="page-inner nav-tap">
+      <img src="p2.png" class="page-bg" alt="Cerimonia">
+      <a class="hotspot hs-church"
+         href="https://maps.app.goo.gl/AxMDmZrY5AV3fbye6"
+         target="_blank" rel="noopener"
+         aria-label="Apri mappa chiesa"></a>
+    </div>
+  </section>
+
+  <!-- PAGINA 3 -->
+  <section class="page" id="page3">
+    <div class="page-inner nav-tap">
+      <img src="p3.png" class="page-bg" alt="Ricevimento">
+      <a class="hotspot hs-restaurant"
+         href="https://maps.app.goo.gl/tg9SrnP2t5sffd3w5"
+         target="_blank" rel="noopener"
+         aria-label="Apri mappa ristorante"></a>
+    </div>
+  </section>
+
+  <!-- PAGINA 4 -->
+  <section class="page" id="page4">
+    <div class="page-inner nav-tap">
+      <img src="p4.png" class="page-bg" alt="Conferma presenza">
+
+      <a class="hotspot hs-yes"
+         href="https://forms.gle/D76T7ZXX16hAdkPu5"
+         target="_blank" rel="noopener"
+         aria-label="Conferma presenza"></a>
+
+      <a class="hotspot hs-no"
+         href="https://wa.me/393496701639?text=Con%20dispiacere%20non%20potr%C3%B2%20esserci%20al%20matrimonio.%20Nome%20e%20cognome%3A%20"
+         target="_blank" rel="noopener"
+         aria-label="Non potrò esserci"></a>
+    </div>
+  </section>
+
+  <!-- PAGINA 5 -->
+  <section class="page" id="page5">
+    <div class="page-inner nav-tap">
+      <img src="p5.png" class="page-bg" alt="Regalo e ringraziamento">
+
+      <a class="hotspot hs-gift"
+         href="https://forms.gle/XPpDQJ7Za4FyLnaz9"
+         target="_blank" rel="noopener"
+         aria-label="Regalo agli sposi"></a>
+    </div>
+  </section>
+
+  <!-- Frecce -->
+  <div class="nav-arrow nav-left" onclick="goPrev()" aria-label="Pagina precedente">‹</div>
+  <div class="nav-arrow nav-right" onclick="goNext()" aria-label="Pagina successiva">›</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
